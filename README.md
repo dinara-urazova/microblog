@@ -6,7 +6,8 @@ $ python3 -m venv .venv
 $ . .venv/bin/activate
 (venv) $ pip install --upgrade pip
 (venv) $ pip install -r requirements.txt
-(venv) $ flask --debug --app app run
+(venv) $ flask run (debug off mode)
+(venv) $ flask --debug --app microblog run (debug mode on) 
 ...работает сервер, ctrl + c для выхода
 (venv) $ deactivate
 ```
