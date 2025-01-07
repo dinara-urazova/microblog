@@ -23,3 +23,9 @@ $ ./run.sh
 ```
 
 and then  open your browser.
+
+To change mode of the files andm turn them into executable files, use "man chmod" commands.
+```
+(venv) $ chmod u+x install.sh 
+```
+The command for the install.sh file means: find this file and add x (execute mode) to the u (User) triad.
